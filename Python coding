@@ -1,0 +1,19 @@
+# input()= A function that prompts the user to enter data returns the entered data as a string
+# you need to call the input function
+# you need to insert f string if you want to insert variables
+# if you assigned variable to user input its default will be string you should convert it to float or int by type casting or when you assign it type cast it
+#name=input("What is your name? : ")
+#print(f"Hello {name}!")
+#age=input("How old are you?:")
+#age=int(age)
+#age=age+1
+#print(f" You are {age} years old")
+#print("That's great and Happy birthday!")
+
+#salary=float(input("How much is your salary per month? :"))
+#print(f" Great!Your salary is fair enough {salary}")
+# Exericse 1 Rectangle Area Calc: want to prompt the user to enter lenght and width
+length=float(input("what is the length?:"))
+width=int(input("What is the width?: "))
+Area=length*width
+print(f"the are of this Rectangle {Area} cm")

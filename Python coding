@@ -17,3 +17,8 @@ length=float(input("what is the length?:"))
 width=int(input("What is the width?: "))
 Area=length*width
 print(f"the are of this Rectangle {Area} cm")
+
+If you have a list of strings and want each on a new line, use \n.join(). This is very efficient for dynamic lists.
+Python
+lines = ["Title: Project X", "Company: Acme Corp", "Status: Sent"]
+print("\n".join(lines))
